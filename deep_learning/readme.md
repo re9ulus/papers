@@ -26,9 +26,7 @@
 
 <hr />
 
-### Very deep convolutional networks for large-scale image recognition.pdf
-
-# Very deep convolutional networks for large-scale image recognition
+### Very deep convolutional networks for large-scale image recognition
 
 Вторая классическая статья по сверточным сетям. Ей мы обязаны появлением VGG-16 и VGG-19.
 
