@@ -1,5 +1,7 @@
 # Краткое описание статей:
 
+## ImageNet
+
 ### ImageNet classification with deep convolutional neural networks
 
 Одна из классических статей, с которых начался современный виток диплернинга.
@@ -109,6 +111,19 @@ GoogleLeNet является конкретной реализацией `Incept
 Затем GoogleLeNet применили на детекции объектов, ансамбль из 6 сетей показал state of the art.
 
 <hr />
+
+## Image Search
+
+### Neural Codes for Image Retrieval
+
+Авторы использовали предобученную для классификации сверточную сеть (like ImageNet), выкинули последний (softmax) и предпоследний (полносвязный) слои.
+Оставшийся полносвязный слой (4096 нейронов) использовали использовали в качестве детектора признаков.
+
+После чего данные сжимали с помощью PCA (128) и Discriminative dimensionality reduction (вплоть до 16). С помощью сжатых представлений удалось получить хороший результат при поиске похожих изображений (L2 метрика).
+
+<hr />
+
+## Other
 
 ### Using Deep Learning and Google Street View to Estimate the Demographic Makeup of the US
 
